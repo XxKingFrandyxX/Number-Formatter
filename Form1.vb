@@ -15,7 +15,7 @@ Public Class Form1
             numbertobeformatted = StringInput.ToString()
         Else
             'If could not covert
-            lblOutput.Text = "Could Not Covert"
+            MessageBox.Show("Could Not Covert")
         End If
         ' If statement that check if the radio button is selected
         If radWholeNumbers.Checked = True Then

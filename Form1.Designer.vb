@@ -137,9 +137,10 @@ Partial Class Form1
         ' 
         ' lblOutput
         ' 
-        lblOutput.Location = New Point(249, 73)
+        lblOutput.Font = New Font("Sans Serif Collection", 15.7499981F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblOutput.Location = New Point(194, 29)
         lblOutput.Name = "lblOutput"
-        lblOutput.Size = New Size(97, 74)
+        lblOutput.Size = New Size(166, 147)
         lblOutput.TabIndex = 6
         ' 
         ' Form1
